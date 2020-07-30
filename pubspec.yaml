@@ -1,0 +1,58 @@
+name: blocks_puzzle
+description: Application demonstrating the use of widgets and animations
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_svg: ^0.18.0
+  shared_preferences: ^0.5.0
+  json_annotation: ^2.0.0
+  flare_flutter: ^1.2.1
+  soundpool: ^1.0.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/
+  - assets/images/
+  - assets/sounds/
+
+  fonts:
+  - family: Fighting Spirit
+    fonts:
+    - asset: fonts/fighting_spirit_bold.ttf
+    - asset: fonts/fighting_spirit.ttf
+
+  - family: HPunk
+    fonts:
+    - asset: fonts/hpunk.ttf
+
+  - family: Cheri
+    fonts:
+    - asset: fonts/cheri.ttf
+
+  - family: Cherl
+    fonts:
+    - asset: fonts/cherl.ttf
